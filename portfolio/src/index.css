@@ -1,13 +1,271 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*
+{
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0E1F3E;
+    color: white;
+}
+
+/* Flexbox and background color set for header */
+header
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+h1
+{
+    background-color: white;
+    color: #0E1F3E;
+    padding-left: 1%;
+}
+
+/* Styling for nav elements */
+nav
+{
+    justify-content: flex-end;
+    margin-left: auto;
+    background-color: white;
+    padding-right: 1%;
+}
+
+nav ul
+{
+    background-color: white;
+}
+
+nav ul li
+{
+    background-color: white;
+    color: #0E1F3E;
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li a
+{
+    outline: none;
+    color: #0E1F3E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover
+{
+    background-color: #0E1F3E;
+    color: white;
+}
+
+/* Flexbox for main content */
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styling for about section */
+aside
+{
+    flex: 1;
+    margin-top: 5%;
+    width: 33%;
+    height: auto;
+}
+
+aside h3
+{
+    padding-left: 3%;
+}
+
+aside img
+{
+    width: 70%;
+    padding-left: 3%;
+}
+
+aside p
+{
+    width: 70%;
+    padding-left: 3%;
+}
+
+aside p a
+{
+    color: white;
+}
+
+#project-container
+{
+    flex: 3;
+    padding-left: 2%;
+}
+
+#project-container h2
+{
+    padding-left: 1%;
+}
+
+/* Styling for first project */
+#first-project
+{
+    width: 1052px;
+}
+
+#first-project-img
+{
+    width: 1052px;
+    height: 650px;
+}
+
+/* Styling for remaining projects */
+#other-projects-container
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 1052px;
+}
+
+.other-projects
+{
+    margin: 10px;
+}
+
+.other-projects-img
+{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#first-project-img,
+.other-projects-img
+{
+    border-image: linear-gradient(gray, lightgray) 45;
+    border-width: 10px;
+    border-style: solid;
+}
+
+/* Change opacity of project images on hover */
+#first-project-img:hover,
+.other-projects-img:hover
+{
+    opacity: 0.1;
+    transition: 0.3s ease;
+}
+
+#projects h4
+{
+    position: absolute;
+    padding-left: 1%;
+    background-color: rgb(4, 58, 4);
+    text-align: center;
+    margin-left: 0.5%;
+}
+
+/* Styling for first project text */
+#first-project-p
+{
+    position: absolute;
+    padding-top: 3%;
+    padding-left: 1%;
+    width: 25%;
+    height: auto;
+    opacity: 0;
+}
+
+/* Stying for remaining projects text */
+.other-projects-p
+{
+    position: absolute;
+    padding-top: 3%;
+    padding-left: 1%;
+    width: 23%;
+    height: auto;
+    opacity: 0;
+}
+
+/* Make first project text visible on hover */
+#first-project:hover #first-project-p
+{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+/* Make other project text visible on hover */
+.other-projects:hover .other-projects-p
+{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.page-links
+{
+    font-weight: bold;
+    display: block;
+    padding-top: 15px;
+}
+
+.image-credit
+{
+    display: block;
+    padding-top: 15px;
+}
+
+/* Styling for footer and links */
+footer ul li
+{
+    list-style-type: none;
+}
+
+footer ul li a
+{
+    color: white;
+}
+
+footer ul li a:hover
+{
+    background-color: white;
+    color: #0E1F3E;
+}
+
+/* Change order of projects and about display */
+@media screen and (max-width: 1176px)
+{
+    #first-project
+    {
+        order: 1;
+    }
+
+    .other-projects
+    {
+        order: 2;
+    }
+
+    aside
+    {
+        order: 3;
+    }
+}
+
+/* Change other projects display to column */
+@media screen and (max-width: 750px)
+{
+    main,
+    #other-projects-container,
+    .other-projects
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    aside
+    {
+        width: 100%;
+    }
 }
