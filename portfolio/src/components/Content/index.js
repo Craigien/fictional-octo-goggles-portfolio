@@ -8,65 +8,62 @@ export default function Content() {
         <section id="projects">
             {/* Holds larger first project */}
             <div id="first-project">
-                <h4>Coding Bootcamp Study Guide</h4>
+                <h4>Music Review Web Application</h4>
                 <p id="first-project-p">
-                    This study guide is for the coding bootcamp that I am enrolled in.  It contains useful items that I have learned so far within the bootcamp.
+                    A music review web application that allows the user to add reviews to their favorite albums from various artists.  Users can also review each other's posts.
                     <span className="page-links">Click the image to view</span>
                 </p>
-                <a href="https://craigien.github.io/prework-study-guide/">
-                    <img id="first-project-img" src={require("../../images/Coding-Bootcamp-Study-Guide.png")} alt="Coding bootcamp study guide" />
+                <a href="https://agile-springs-19422-e0a9573c7a30.herokuapp.com/">
+                    <img id="first-project-img" src={require("../../images/Project-02-Screenshot.png")} alt="Music Review Web Application" />
                 </a>
             </div>
 
             {/* Horiseon webpage - using as placeholder */}
             <div id="other-projects-container">
             <div className="other-projects">
-                <h4>Horiseon Marketing Management</h4>
+                <h4>BlackJack Game</h4>
                 <p className="other-projects-p">
-                    This is a webpage for a fictitious marketing management company named Horiseon.  The webpage contains information about the services that Horiseon offers.
+                    A BlackJack card game application using third party APIs for card deck and user location.  The user can determine how much money they wish to bet and play against the dealer in blackjack.
                     <span className="page-links">Click the image to view</span>
                 </p>
-                    <a href="https://craigien.github.io/scaling-fishstick-module-01-challenge/">
-                        <img className="other-projects-img" src={require("../../images/Horiseon-Marketing-Management.png")} alt="Horiseon marketing management" />
+                    <a href="https://craigien.github.io/super-duper-winner-project-01/">
+                        <img className="other-projects-img" src={require("../../images/Project-01-Screenshot.png")} alt="BlackJack Game" />
                     </a>
                 </div>
 
             {/* Placeholder project */}
             <div className="other-projects">
-                <h4>Used Car Dealership</h4>
+                <h4>Car Dealership</h4>
                 <p className="other-projects-p">
-                    This website is for a fictitious used car dealership specializing in the sale of exotic vehicles.
+                    Car dealership website that allows the user to view the vehicle inventory and create appointments to test drive vehicles.
                     <span className="page-links">Click the image to view</span>
-                    <span className="image-credit">Image credit - Peter Broomfield</span>
                 </p>
-                <a href="#">
-                    <img className="other-projects-img" src={require("../../images/Car-Dealership.jpg")} alt="Used car dealership" />.
+                <a href="https://radiant-fortress-44546-0acbf05b7546.herokuapp.com/">
+                    <img className="other-projects-img" src={require("../../images/Project-03-Screenshot.png")} alt="Car Dealership" />
                 </a>
             </div>
 
             {/* Random password generator - using as placeholder */}
             <div className="other-projects">
-                <h4>Password Generator</h4>
+                <h4>Weather Dashboard</h4>
                 <p className="other-projects-p">
-                    This is a random password generator application.  
-                    It allows the user to generate a password based of off specified criteria such as number of characters and character types.
+                    A weather dashboard that allows the user to search for a city name and view the weather forecast for that city.  The current weather and 5-day forecast will be displayed.
                     <span className="page-links">Click the image to view</span>
                 </p>
-                <a href="https://craigien.github.io/urban-tribble-module-03-challenge/">
-                    <img className="other-projects-img" src={require("../../images/Password-Generator.png")} alt="Password generator application" />
+                <a href="https://craigien.github.io/urban-waddle-module-06-challenge/">
+                    <img className="other-projects-img" src={require("../../images/Weather-Dashboard-Screenshot.png")} alt="Weather Dashboard" />
                 </a>
             </div>
 
             {/* Placeholder project */}
             <div className="other-projects">
-                <h4>Music History Webpage</h4>
+                <h4>Tech Blog</h4>
                 <p className="other-projects-p">
-                    This is a website dedicated to music history.  The website content specializes in the history of rock and roll.
+                    Tech blog web application that allows users to add posts and comments.  Users can view other's posts can add their own comments to them.
                     <span className="page-links">Click the image to view</span>
-                    <span className="image-credit">Image credit - Mink Mingle</span>
                 </p>
-                <a href="#">
-                    <img className="other-projects-img" src={require("../../images/Music-History.jpg")} alt="Turntable with record" />
+                <a href="https://dry-mountain-43107-252c46a3f548.herokuapp.com/">
+                    <img className="other-projects-img" src={require("../../images/Tech-Blog-Screenshot.png")} alt="Tech Blog" />
                 </a>
             </div>
             </div>
