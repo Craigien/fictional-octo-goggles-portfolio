@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fictional-octo-goggles-portfolio/static/css/main.7bbb862f.css",
+    "main.js": "/fictional-octo-goggles-portfolio/static/js/main.4e84287a.js",
+    "static/js/787.bdb5642f.chunk.js": "/fictional-octo-goggles-portfolio/static/js/787.bdb5642f.chunk.js",
+    "static/media/Project-03-Screenshot.png": "/fictional-octo-goggles-portfolio/static/media/Project-03-Screenshot.5042a2e204fe8bac9995.png",
+    "static/media/Project-02-Screenshot.png": "/fictional-octo-goggles-portfolio/static/media/Project-02-Screenshot.b2602066ae84ddd36019.png",
+    "static/media/Project-01-Screenshot.png": "/fictional-octo-goggles-portfolio/static/media/Project-01-Screenshot.a34aac3fb30d519cad57.png",
+    "static/media/Craig.jpg": "/fictional-octo-goggles-portfolio/static/media/Craig.8501d4beec8e8e10f4bd.jpg",
+    "static/media/Weather-Dashboard-Screenshot.png": "/fictional-octo-goggles-portfolio/static/media/Weather-Dashboard-Screenshot.6af043ca0075fa4ac5d5.png",
+    "static/media/Tech-Blog-Screenshot.png": "/fictional-octo-goggles-portfolio/static/media/Tech-Blog-Screenshot.58a6c10fb8dcc19c76b8.png",
+    "index.html": "/fictional-octo-goggles-portfolio/index.html",
+    "main.7bbb862f.css.map": "/fictional-octo-goggles-portfolio/static/css/main.7bbb862f.css.map",
+    "main.4e84287a.js.map": "/fictional-octo-goggles-portfolio/static/js/main.4e84287a.js.map",
+    "787.bdb5642f.chunk.js.map": "/fictional-octo-goggles-portfolio/static/js/787.bdb5642f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bbb862f.css",
+    "static/js/main.4e84287a.js"
+  ]
+}
