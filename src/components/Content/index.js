@@ -13,7 +13,7 @@ export default function Content() {
                         A music review web application that allows the user to add reviews to their favorite albums from various artists.  Users can also review each other's posts.  This was a team project created by myself and two teammates.
                         <span className="page-links">Click the image to view</span>
                     </p>
-                    <a href="https://agile-springs-19422-e0a9573c7a30.herokuapp.com/">
+                    <a href="https://guarded-springs-19361-041dfab83370.herokuapp.com/">
                         <img id="first-project-img" src={require("../../images/Project-02-Screenshot.png")} alt="Music Review Web Application" />
                     </a>
                 </div>
